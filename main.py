@@ -44,7 +44,7 @@ with st.form("calc_inputs"):
     st.form_submit_button('Calculate Beta Matrix', on_click=execute_calculation())
 
 if ranked_beta_df.empty:
-    st.write("Calculated Matrix Tables will appear her as soon as your selection is submitted.")
+    st.write("\nCalculated Matrix Tables will appear her as soon as your selection is submitted.")
 
 # Display Ranked Beta Values if available
 if not ranked_beta_df.empty:
