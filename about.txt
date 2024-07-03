@@ -1,0 +1,13 @@
+
+##### This Streamlit app facilitates the calculation and comparison of beta values for the selected cryptocurrencies against the predefined benchmark assets Bitcoin (BTC) and Ethereum (ETH).
+
+1. **Customizable Beta Calculation:**
+    - Users can specify multiple beta calculation lengths (e.g., 30 days, 90 days) tailored to your analytical needs.
+2. **Asset Selection:**
+    - Provides a selection of cryptocurrencies (e.g., HEX, XRP) to compare against standard assets like Bitcoin (BTC) and Ethereum (ETH) for beta analysis.
+3. **Automatic Data Retrieval:**
+    - Utilizes the yfinance library to automatically fetch historical price data for selected assets from Yahoo Finance.
+4. **Beta Calculation:**
+    - Computes beta coefficients based on the covariance of daily returns between selected cryptocurrencies and BTC/ETH.
+5. **Ranked Beta Display:**
+    - Presents ranked beta values for each cryptocurrency, showcasing their relative volatility compared to BTC and ETH over different time periods.
