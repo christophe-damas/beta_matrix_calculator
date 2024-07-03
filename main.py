@@ -46,7 +46,7 @@ with st.form("calc_inputs"):
 if ranked_beta_df.empty:
     st.text("")
     st.text("")
-    st.caption("  *Calculated Matrix Tables will appear her as soon as your selection is submitted.*")
+    st.caption("*Calculated Matrix Tables will appear her as soon as your selection is submitted.*")
 
 # Display Ranked Beta Values if available
 if not ranked_beta_df.empty:
